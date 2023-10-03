@@ -1,0 +1,28 @@
+{
+    "chartData": [{
+        "Data": "30",
+        "Category": "01-10-2023",
+        "Death": "4"
+    },
+    {
+        "Data": "45",
+        "Category": "02-10-2023",
+        "Death": "10"
+    },
+    {
+        "Data": "65",
+        "Category": "03-10-2023",
+        "Death": "19"
+    },
+    {
+        "Data": "30",
+        "Category": "04-10-2023",
+        "Death": "5"
+    },
+    {
+        "Data": "60",
+        "Category": "05-10-2023",
+        "Death": "10"
+    }
+]
+}

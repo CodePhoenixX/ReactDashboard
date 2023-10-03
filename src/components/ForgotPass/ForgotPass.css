@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.forgot_password{
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 290px;
+}
+
+.left_side_forgot{
+    z-index: 3;
+}
+
+.forgot_box{
+    width: 520px;
+    height: 100vh;
+    max-width: 100%;
+    background-color: rgb(255, 249, 193);
+    margin-left: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_side_forgot{
+    display: flex;
+    margin-left: 0;
+    flex: auto;
+}
+
+.forgot_form{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgot_heading{
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: 400;
+    color: rgb(16, 24, 40);
+    margin-bottom: 7px;
+}
+
+.forgot_subheading{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(71, 84, 103);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.forgot_email_box{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.forgot_email_label{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+}
+
+.forgot_input_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(148, 148, 148);
+    padding: 5px 10px ;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.forgot_input_box span{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(16, 24, 40);
+    cursor: pointer;
+}
+
+.forgot_input_box .forgot_email_input{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+
+.forgot_btn_button{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.forgot_button{
+    height: 2.5rem;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0.5rem;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    background-color: #2684FF;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.forgot_button:hover{
+    background-color: #0d6eed;
+}
+
+.return_sign_in{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+    gap: 10px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.return_link{
+    display: inline-flex;
+    align-items: center;
+}
+
+.return_link a{
+    text-decoration: none;
+    color: #2684FF;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .forgot_password{
+        gap: 100px;
+    }
+  }
+  @media screen and (max-width: 1030px) {
+    .forgot_box{
+        width: 480px;
+    }
+
+    .forgot_password{
+        gap: 50px;
+    }
+  } 
+  @media screen and (max-width: 935px) {
+    .forgot_box{
+        width: 380px;
+    }
+
+    .forgot_password{
+        gap: 50px;
+    }
+  }
+  @media screen and (max-width:850px) {
+
+    .forgot_password{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forgot_box{
+        margin-top: 20px;
+        width: 480px;
+        height: 70vh;
+    }
+
+    .forgot_form{
+        margin-bottom: 50px;
+    }
+  }
+  @media screen and (max-width:480px) {
+
+    .right_side_forgot{
+        margin-left: 10px;
+    }
+    .forgot_box{
+        margin-top: 0;
+        width: 430px;
+        height: 70vh;
+    }
+
+    .forgot_subheading{
+        line-height: 20px;
+    }
+
+    .forgot_email_box{
+        width: 96%;
+    }
+
+    .forgot_button{
+        margin-right: 9px;
+    }
+
+    .return_sign_in{
+        margin-right: 10px;
+    }
+
+  }

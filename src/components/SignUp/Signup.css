@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.register_container{
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 290px;
+}
+
+.left_side_register{
+    z-index: 3;
+}
+
+.register_box{
+    width: 520px;
+    height: 100vh;
+    max-width: 100%;
+    background-color: rgb(186, 216, 245);
+    margin-left: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_side_register{
+    display: flex;
+    margin-left: 0;
+    flex: auto;
+}
+
+.register_form{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register_welcome_text{
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: 400;
+    color: rgb(16, 24, 40);
+    margin-bottom: 30px;
+}
+
+.fname_lname{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.user_input_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(148, 148, 148);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.user_lname .user_fname{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+}
+
+.username_finput{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+
+.username_linput{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+
+.register_email_box{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.register_email_label{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+}
+
+.register_input_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(148, 148, 148);
+    padding: 5px 10px ;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.register_input_box span{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(16, 24, 40);
+    cursor: pointer;
+}
+
+.register_input_box .register_email_input{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+
+.register_password_box{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.register_password_label{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+}
+.register_password_box .register_password_input{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+
+.register_btn_button{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.register_button{
+    height: 2.5rem;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0.5rem;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background-color: #2684FF;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.register_button:hover{
+    background-color: #0d6eed;
+}
+
+.link_already_account{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 10px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.signin_link{
+    display: inline-flex;
+    align-items: center;
+}
+
+.signin_link a{
+    text-decoration: none;
+    color: #2684FF;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.have_an_acc{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(16, 24, 40);
+}
+
+@media screen and (max-width: 1200px) {
+
+    .register_container{
+        gap: 100px;
+    }
+  }
+  @media screen and (max-width: 1030px) {
+    .register_box{
+        width: 480px;
+    }
+
+    .register_container{
+        gap: 50px;
+    }
+  } 
+  @media screen and (max-width: 935px) {
+    .register_box{
+        width: 380px;
+    }
+
+    .register_container{
+        gap: 50px;
+    }
+  }
+  @media screen and (max-width:850px) {
+
+    .register_container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register_box{
+        margin-top: 20px;
+        width: 480px;
+        height: 70vh;
+    }
+
+    .register_form{
+        margin-bottom: 50px;
+    }
+  }
+  @media screen and (max-width:480px) {
+
+    .fname_lname{
+        display: block;
+        width: 96%;
+    }
+
+    .register_lname{
+        margin-top: 10px;
+    }
+
+    .register_box{
+        margin-top: 0;
+        width: 430px;
+        height: 70vh;
+    }
+
+    .right_side_register{
+        margin-left: 10px;
+    }
+
+    .register_email_box{
+        width: 96%;
+    }
+
+    .register_password_box{
+        width: 96%;
+    }
+
+
+    .register_btn_button, .link_already_account{
+        margin-right: 10px;
+    }
+
+  }
