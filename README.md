@@ -1,3 +1,7 @@
+
+![image](https://github.com/CodePhoenixX/ReactDashboard/assets/132158402/284ecb84-191f-4037-8520-cb6c3b9ce4a6)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
